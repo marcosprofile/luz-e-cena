@@ -1,7 +1,9 @@
+import Banner from "./components/Banner/Index"
+
 function App() {
 
   return (
-    <h1>Hello World!</h1>
+    <Banner src="../public/banner-desktop.png" alt="Banner" />
   )
 }
 
