@@ -1,18 +1,9 @@
-import Tag, { Categoria, Censura } from '../Tag'
+import Tag from '../Tag'
+import { Movie } from '../../types'
 import styles from './CardMovie.module.css'
 
-interface CardMovieProps {
-  src: string;
-  alt: string;
-  titulo: string;
-  categoria: Categoria;
-  censura: Censura;
-  genero: string;
-  duracao: number;
-}
 
-
-const CardMovie = (props: CardMovieProps) => {
+const CardMovie = (props: Movie) => {
   const {alt, src, titulo, genero, categoria, censura, duracao} = props
 
   return (
