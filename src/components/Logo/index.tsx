@@ -1,6 +1,6 @@
 const Logo = ({ ...props}: React.ImgHTMLAttributes<HTMLImageElement>) => {
   return (
-    <img {...props} />
+    <img {...props} alt="Logo" />
   )
 }
 
