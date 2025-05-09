@@ -29,6 +29,9 @@
 
 .container h3 {
   font-size: var(--font-size-s);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .informacoes {

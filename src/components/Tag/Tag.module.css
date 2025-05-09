@@ -1,5 +1,5 @@
 .tag {
-  padding: var(--padding-xs) var(--padding-s);
+  padding: var(--padding-sm) var(--padding-xs);
   border-radius: 0.5rem;
   font-size: var(--font-size-s);
   font-weight: 400;
@@ -30,8 +30,10 @@
 
 .catorze {
   background-color: var(--coral);
+  color: var(--branco);
 }
 
 .dezesseis {
   background-color: var(--vermelho);
+  color: var(--branco);
 }

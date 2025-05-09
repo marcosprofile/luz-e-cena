@@ -7,7 +7,7 @@ const CardMovie = (props: Movie) => {
   const {alt, src, titulo, genero, categoria, censura, duracao} = props
 
   return (
-    <li className={styles.card}>
+    <li className={styles.card} title={titulo}>
       <img src={src} alt={alt} />
       <div className={styles.container}>
         <h3>{titulo}</h3>
