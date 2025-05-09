@@ -5,6 +5,10 @@
   gap: var(--gap-xl);
   background-color: var(--branco);
   padding: var(--padding-s) 0;
+
+  img {
+    height: 36px;
+  }
 }
 
 .menuitem {

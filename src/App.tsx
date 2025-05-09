@@ -1,14 +1,12 @@
 import Banner from "./components/Banner/Index"
-import Button from "./components/Button"
-import Link from "./components/Link"
+import Header from "./components/Header"
 
 function App() {
 
   return (
     <>
+      <Header />
       <Banner src="../public/banner-desktop.png" alt="Banner" />
-      <Link href="/" target="_blank">Link</Link>
-      <Button variant="default">Botão</Button>
     </>
   )
 }
