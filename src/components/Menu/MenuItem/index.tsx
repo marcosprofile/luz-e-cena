@@ -5,7 +5,7 @@ import Link from '../../Link'
 const MenuItem = ({children, href = '#'}: MenuItemProps) => {
   return (
     <li>
-      <Link href={href}>{children}</Link>
+      <Link variant="default" href={href}>{children}</Link>
     </li>
   )
 }
