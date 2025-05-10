@@ -27,12 +27,17 @@ const MovieSection = () => {
         </Fieldset>
         <h1 className={styles.titulo}>Em cartaz</h1>
         {isLoading && <p>Carregando filmes...</p>}
-        {error && <p className={styles.error}>{error}</p>}
-        {filteredMovies.length === 0 ? (
-          <p className={styles.error}>Nenhum filme encontrado. Tente novamente.</p>
-        ) : (
-          <MovieList movies={filteredMovies} />
-        )}
+        {(() => {
+          if (error) {
+            return <p className={styles.error}>{error}</p>;
+          }
+
+          if (filteredMovies.length === 0) {
+            return <p className={styles.error}>Nenhum filme encontrado. Tente novamente.</p>;
+          }
+
+          return <MovieList movies={filteredMovies} />;
+        })()}
       </section>
     </main>
   );
