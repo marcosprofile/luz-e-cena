@@ -9,7 +9,6 @@ import useFilterMovies from "../../hooks/useFilterMovies";
 
 
 const MovieSection = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { movies, error, isLoading } = useFetchMovies()
   const {searchTerm, handleSearch, setSearchTerm, filteredMovies} = useFilterMovies(movies)
 
