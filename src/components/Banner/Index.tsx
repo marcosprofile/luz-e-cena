@@ -1,9 +1,6 @@
+import { BannerProps } from '../../types/banner.types'
 import styles from './Banner.module.css'
 
-type BannerProps = {
-  src: string
-  alt: string
-}
 
 const Banner = ({ src, alt }: BannerProps) => {
   return (

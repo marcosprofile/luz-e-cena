@@ -1,10 +1,7 @@
-interface SelectionOption extends React.OptionHTMLAttributes<HTMLOptionElement> {
-  label: string;
-  value: string;
-}
+import { SelectionOptionProps } from "../../../types/selection.types"
 
 
-const SelectorOption = ({label, value, ...rest}: SelectionOption) => {
+const SelectorOption = ({label, value, ...rest}: SelectionOptionProps) => {
   return (
     <option value={value} {...rest}>
       {label}

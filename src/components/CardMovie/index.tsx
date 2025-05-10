@@ -1,5 +1,5 @@
+import { Movie } from '../../types/movie.types'
 import Tag from '../Tag'
-import { Movie } from '../../types'
 import styles from './CardMovie.module.css'
 
 

@@ -1,10 +1,6 @@
+import { MovieListProps } from '../../types/movie-list.types'
 import CardMovie from '../CardMovie'
-import { Movie } from '../../types'
 import styles from './MovieList.module.css'
-
-interface MovieListProps {
-  movies: Movie[]
-}
 
 
 const MovieList = ({movies}: MovieListProps) => {

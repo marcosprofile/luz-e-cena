@@ -1,10 +1,6 @@
 import classNames from 'classnames'
 import styles from './Tag.module.css'
-import { Categoria, Censura } from '../../types'
-
-interface TagProps {
-  value: Categoria | Censura
-}
+import { TagProps } from '../../types/tag.types'
 
 const tagClasses = {
   Livre: styles.livre,
