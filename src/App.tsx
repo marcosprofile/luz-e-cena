@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Banner src="../public/banner-desktop.png" alt="Banner" />
+      <Banner src="banner-desktop.png" alt="Banner" />
       <MovieSection />
       <Banner src="banner-combo-desktop.png" alt="Combo" />
       <Newsletter />
