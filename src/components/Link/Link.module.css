@@ -1,9 +1,16 @@
 .link {
   text-decoration: none;
-  color: var(--preto);
   transition: all .2s ease;
-
+  
   &:hover {
     transform: scale(1.1) !important;
   }
+}
+
+.default {
+  color: var(--preto);
+}
+
+.branco {
+  color: var(--branco);
 }
