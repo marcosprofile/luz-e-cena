@@ -32,16 +32,22 @@ footer {
 }
 
 .funcionamento,
-.institucional,
-.redes {
+.institucional {
   display: flex;
   flex-direction: column;
   gap: var(--gap-xs);
   color: var(--cinza-claro);
 }
 
+.redes {
+  display: flex;
+  gap: var(--gap-s);
+  padding: var(--padding-xs) 0;
+  font-size: var(--font-size-m);
+}
+
 .titulo {
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem 0;
   font-family: var(--fonte-titulo);
   font-weight: 400;
 }
@@ -54,17 +60,6 @@ footer {
 .ancora:hover {
   color: var(--branco);
   transform: scale(1.1);
-}
-
-.icones {
-  display: flex;
-  gap: var(--gap-xs);
-  color: var(--azul);
-  font-size: var(--font-size-m);
-}
-
-.icone {
-  color: var(--azul);
 }
 
 .desenvolvimento {
